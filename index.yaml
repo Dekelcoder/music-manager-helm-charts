@@ -9,6 +9,6 @@ entries:
     name: music-manager
     type: application
     urls:
-    - https://Dekelcoder.github.io/music-manager-helm-charts/music-manager-1.0.0.tgz
+    - https://dekelcoder.github.io/music-manager-helm-charts/music-manager-1.0.0.tgz
     version: 1.0.0
 generated: "2024-11-22T22:08:00.8778822+02:00"
