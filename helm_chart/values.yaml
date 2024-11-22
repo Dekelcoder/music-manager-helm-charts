@@ -1,0 +1,19 @@
+frontend:
+  replicaCount: 3
+  image:
+    repository: dekel26/music-manager-frontend
+    tag: latest
+  service:
+    type: NodePort
+    nodePort: 30001
+    env:
+    BACKEND_URL: "http://music-manager-backend.default.svc.cluster.local:5000"
+
+backend:
+  replicaCount: 1
+  image:
+    repository: dekel26/music-manager-backend
+    tag: latest
+
+mongodb:
+  serviceName: mongodb-service
