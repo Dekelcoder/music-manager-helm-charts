@@ -3,12 +3,12 @@ entries:
   music-manager:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-23T14:21:05.8029999+02:00"
+    created: "2024-11-23T15:29:15.7510339+02:00"
     description: A Helm chart for deploying the Music Manager app
-    digest: 221328d3c1c558cfaa905ce21cb7a7d83037d49b4b89798adcd5856e7f7df323
+    digest: 0dcc0fbb73e46748d6ac4e677ea4a61efdac7648980ed998dbb7f33129c29a80
     name: music-manager
     type: application
     urls:
-    - https://dekelcoder.github.io/music-manager-helm-charts/music-manager-1.0.0.tgz
+    - https://Dekelcoder.github.io/music-manager-helm-charts/music-manager-1.0.0.tgz
     version: 1.0.0
-generated: "2024-11-23T14:21:05.7989053+02:00"
+generated: "2024-11-23T15:29:15.7447667+02:00"
